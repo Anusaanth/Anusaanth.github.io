@@ -12,6 +12,8 @@ import {
   StarsCanvas,
 } from "./components";
 
+//
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -27,7 +29,6 @@ const App = () => {
         <Feedbacks />
         <div ClassName="relative z-0">
           <Contact />
-          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>

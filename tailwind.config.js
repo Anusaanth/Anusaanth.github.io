@@ -19,7 +19,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/bg2.png')",
+        "hero-pattern": "url('/src/assets/moon.png')",
       },
     },
   },
@@ -30,4 +30,8 @@ module.exports = {
 //secondary: "#aaa6c3",
 //tertiary: "#151030",
 
+
+//bg2.png     stars
+//build2Bg.png
+//moon.png
 

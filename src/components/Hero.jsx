@@ -26,21 +26,14 @@ const Hero = () => {
             <br className="sm:block hidden" />
             and innovation, seeking opportunities in the field.
           </p>
-          <div class="btn-container mt-3">
+          <div className="btn-container mt-3">
             <a href={resume} download="Anusaanth_Sivakumaran_Resume">
-              <button class="btn btn-color-2">Download CV</button>
+              <button className="btn btn-color-2">Download CV</button>
             </a>
           </div>
         </div>
       </div>
-      //"mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative
-      overflow-hidden mt-20 md:h-96 md:w-96" //"bg-gradient-to-b blue-gradient
-      rounded-full w-80 h-80 relative overflow-hidden"
-      <div className="absolute xs:bottom-5 bottom-32 end-32 w-full flex justify-end items-end">
-        <div className="bg-gradient-to-b blue-gradient rounded-full w-85 h-85 relative overflow-hidden">
-          <img src={my_pic} />
-        </div>
-      </div>
+      <ComputersCanvas />
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-white flex justify-center items-start p-2">
@@ -63,3 +56,12 @@ const Hero = () => {
 };
 
 export default Hero;
+//"mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative
+//overflow-hidden mt-20 md:h-96 md:w-96" //"bg-gradient-to-b blue-gradient
+//rounded-full w-80 h-80 relative overflow-hidde
+
+//<div className="absolute xs:bottom-5 bottom-32 end-32 w-full flex justify-end items-end">
+//<div className="bg-gradient-to-b blue-gradient rounded-full w-85 h-85 relative overflow-hidden">
+//<img src={my_pic} />
+//</div>
+//</div>

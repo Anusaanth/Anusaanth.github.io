@@ -54,16 +54,19 @@ export const navLinks = [
 
 const services = [
     {
+        key: "School",
         title: "School",
         icon: wlu_logo,
         text: "Wilfrid Laurier University",
     },
     {
+        key: "Degree",
         title: "Degree",
         icon: degree,
         text: "Honours Bachelor of Computer Science",
     },
     {
+        key: "Degree2",
         title: "Degree",
         icon: degree,
         text: "Honours Bachelor of Business Administration",
@@ -127,10 +130,6 @@ const technologies = [
     {
         name: "Jenkins",
         icon: jen,
-    },
-    {
-        name: "Angular",
-        icon: angular,
     },
 
 ];
